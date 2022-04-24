@@ -1,0 +1,93 @@
+.block-editor-block-list__block[data-type="ainoblocks/button"] {
+
+	&[data-align="center"] {
+		text-align: center;
+	}
+
+	&[data-align="right"] {
+		/*!rtl:ignore*/
+		text-align: right;
+	}
+
+	.block-editor-url-input input[type=text] {
+		width: 100%;
+	}
+}
+
+.editor-styles-wrapper[style*="width: 780px;"] {
+
+	.wp-block-ainoblocks-button__link {
+
+		&.size {
+
+			&__m {
+				padding: 1rem 2rem;
+				font-size: 1.125rem;
+			}
+
+			&__l {
+				padding: 1.25rem 2.5rem;
+				font-size: 1.375rem;
+			}
+
+			&__xl {
+				padding: 1.25rem 2.5rem;
+				font-size: 1.5rem;
+			}
+
+			&__xxl {
+				padding: 2rem 4rem;
+				font-size: 1.5rem;
+			}
+			
+			&__xxxl {
+				padding: 3rem 6rem;
+				font-size: 1.5rem;
+			}
+
+			&__xxxxl {
+				padding: 5rem 10rem;
+				font-size: 1.5rem;
+			}
+		}
+	}
+}
+
+.editor-styles-wrapper[style*="width: 360px;"] {
+
+	.wp-block-ainoblocks-button__link {
+
+		&.size {
+
+			&__m {
+				padding: 1rem 2rem;
+				font-size: 1.125rem;
+			}
+
+			&__l {
+				padding: 1rem 2rem;
+				font-size: 1.125rem;
+			}
+
+			&__xl {
+				padding: 1rem 2rem;
+				font-size: 1.375rem;
+			}
+
+			&__xxl {
+				padding: 1.5rem 3rem;
+				font-size: 1.375rem;
+			}
+
+			&__xxxl {
+				padding: 2.5rem 5rem;
+				font-size: 1.375rem;
+			}
+
+			&__xxxxl {
+				padding: 4rem 8rem;
+				font-size: 1.375rem;
+			}
+		}
+	}
+}

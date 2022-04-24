@@ -1,0 +1,19 @@
+{
+	"apiVersion": 2,
+	"name": "ainoblocks/divider",
+	"title": "Divider",
+	"attributes": {
+		"backgroundColor": {
+			"type": "string"
+		},
+		"borderColor": {
+			"type": "string"
+		},
+		"iconColor": {
+			"type": "string"
+		},
+		"borderWidth": {
+			"type": "number"
+		}
+	}
+}
